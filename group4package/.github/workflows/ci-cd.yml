@@ -74,7 +74,7 @@ jobs:
     - name: Publish to TestPyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        user: __token__
+        user: ${{ secrets.PYPI_USERNAME }}
         password: ${{ secrets.TEST_PYPI_API_TOKEN }}
         repository_url: https://test.pypi.org/legacy/
 
@@ -88,5 +88,5 @@ jobs:
     - name: Publish to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        user: __token__
+        user: ${{ secrets.PYPI_USERNAME }}
         password: ${{ secrets.PYPI_API_TOKEN }}
