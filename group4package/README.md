@@ -10,7 +10,11 @@ $ pip install group4package
 
 ## Usage
 
-- TODO
+- group 4 package can be used for the following parts of a data analysis:
+- produce a count plot
+- calculate summary statistics
+- calculate classification metrics
+- pre-process data 
 
 ## Contributing
 
@@ -18,7 +22,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`group4package` was created by Hannah Martin. It is licensed under the terms of the MIT license.
+`group4package` was created by Hannah, Jordan, Diana, and Shravan. It is licensed under the terms of the MIT license.
 
 ## Credits
 
