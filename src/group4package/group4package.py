@@ -10,7 +10,7 @@
 # '         The plot should have a x label, a y label and a title.
 
 
-from src.group4package.function_count_plot.py import count_plot
+from function_count_plot.py import count_plot
 
 #' Calculate summary statistics
 #'
@@ -28,5 +28,5 @@ from src.group4package.function_count_plot.py import count_plot
 #'   The second row (named std) lists the standard deviation of each column from the input data frame.
 #'   It will have the same number of columns as the fully-numerical columns present in input data frame.
 
-from src.group4package.summary_stats_function.py import get_summary_stats
+from summary_stats_function.py import get_summary_stats
 
