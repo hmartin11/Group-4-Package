@@ -1,13 +1,17 @@
 [tool.poetry]
 name = "group4package"
 version = "0.1.0"
-description = "A package for doing great things!"
-authors = ["Hannah Martin"]
+description = "Package containing functions to run Group 4's Data Analysis"
+authors = ["Hannah, Diana, Jordan, Shravan "]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest = "^7.1.1"
+sklearn = "^0.0"
+pytest-cov = "^3.0.0"
+python-semantic-release = "^7.27.1"
 
 [tool.poetry.dev-dependencies]
 [tool.semantic_release]
