@@ -1,5 +1,5 @@
 import py
-from src.group4package import summary_stats_function as ss
+from group4package import summary_stats_function as ss
 
 
 import pytest

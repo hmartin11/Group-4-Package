@@ -1,4 +1,4 @@
-from src.group4package import metrics_function
+from group4package import metrics_function
 import pandas as pd
 
 TN = 40
