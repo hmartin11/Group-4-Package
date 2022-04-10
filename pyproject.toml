@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "group4package"
-version = "0.1.0"
+version = "0.1.1"
 description = "Package containing functions to run Group 4's Data Analysis"
 authors = ["Hannah, Diana, Jordan, Shravan "]
 license = "MIT"
