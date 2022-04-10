@@ -1,4 +1,4 @@
-from src.group4package import function_count_plot as c
+from group4package import function_count_plot as c
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
