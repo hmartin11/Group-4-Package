@@ -1,6 +1,6 @@
 # group4package
 
-A package for doing great things!
+A package for running Group 4's data analysis
 
 ## Installation
 
