@@ -36,10 +36,25 @@ from group4package import summary_stats_function as ss
 ss.get_summary_stats(train_df)
 ```
 
-- count_plot
-- pre-process data 
+**`count_plot(df, x, name)`**
+- creates a plot of the counts between x and y values of the given dataframe, while the latter two arguments are used as the x-axis label and title of the produced plot
 
+Example:
 
+```python 
+from group4package.function_count_plot import count_plot
+count_plot.get_summary_stats(df=train_df, x="x-axis label", name="Plot Title")
+```
+
+**`pre-process data(df, train_frac, seed)`**
+- drops all rows with missing or null values and then splits the dataframe into training and testing sets according to the given split ratio
+
+Example:
+
+```python 
+from group4package import preprocess as pp
+train_df, test_df = pp.preprocess(df, 0.8, 200)
+```
 
 ## Contributing
 
