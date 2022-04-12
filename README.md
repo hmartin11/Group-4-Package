@@ -43,7 +43,7 @@ Example:
 
 ```python 
 from group4package.function_count_plot import count_plot
-count_plot.get_summary_stats(df=train_df, x="x-axis label", name="Plot Title")
+new_plot = count_plot(df=train_df, x="x-axis label", name="Plot Title")
 ```
 
 **`pre-process data(df, train_frac, seed)`**
