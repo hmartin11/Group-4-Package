@@ -12,7 +12,7 @@ $ pip install group4package
 
 ## Usage
 
-The following functions in this package were created for Group 4's Project [Predicting Defaults of Credit Card Clients](https://github.com/DSCI-310/DSCI-310-Group-4)
+The following functions in this package were created for Group 4's Project [Predicting Defaults of Credit Card Clients](https://github.com/DSCI-310/DSCI-310-Group-4). 
 However, they are useful for any data analysis that involves pre-processing data and calculating classification metrics and statistics. 
 
 **`calculate_metrics(FP, TN, TP)`**
